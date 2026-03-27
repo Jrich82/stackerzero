@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden" style={{backgroundImage:"linear-gradient(rgba(247,147,26,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(247,147,26,0.04) 1px,transparent 1px)",backgroundSize:"50px 50px"}}>
