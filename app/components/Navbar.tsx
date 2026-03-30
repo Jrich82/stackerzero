@@ -1,5 +1,5 @@
-"use client";
-import { Shield, Menu, X } from "lucide-react";
+﻿"use client";
+import { Zap, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -9,8 +9,8 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/90 backdrop-blur border-b border-[#F7931A]/20">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Shield className="text-[#F7931A] w-6 h-6" />
-          <span className="font-bold text-lg tracking-tight">Bitcoin <span className="text-[#F7931A]">Defense</span></span>
+          <Zap className="text-[#F7931A] w-6 h-6" />
+          <span className="font-black text-lg tracking-tight font-mono">Stacker<span className="text-[#F7931A]">Zero</span></span>
         </div>
         <div className="hidden md:flex gap-8 text-sm text-gray-400">
           {links.map(l => (

@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 const events = [
   { year:"2019", label:"Google claims quantum supremacy (53 qubits)", status:"past" },
   { year:"2023", label:"IBM reaches 1,000+ qubit processor", status:"past" },
@@ -7,7 +7,7 @@ const events = [
   { year:"2026", label:"~1,000-2,000 noisy qubits. Bitcoin safe -- for now.", status:"now" },
   { year:"2028", label:"Bitcoin community begins quantum-resistant BIP proposals", status:"future" },
   { year:"2030", label:"WARNING: Quantum Event Horizon approaches", status:"warning" },
-  { year:"2030-35", label:"Estimated window: ECDSA becomes breakable", status:"danger" },
+  { year:"2029", label:"Estimated window: ECDSA becomes breakable", status:"danger" },
   { year:"2035+", label:"Bitcoin hard fork to quantum-resistant signatures", status:"future" },
 ];
 

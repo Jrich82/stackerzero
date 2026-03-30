@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Bitcoin Defense | Every Satoshi. Future-Proof.",
-  description: "The ultimate team of AI and human intelligence dedicated to ensuring every last Satoshi is mined, every wallet is future-proof, and Bitcoin survives every threat vector -- known and unknown.",
+  title: "Stacker Zero | Zero Reuse. Zero Exposure. Zero Trust.",
+  description: "Bitcoin security intelligence for serious holders. Quantum threats, key hygiene, self-custody -- we track every attack vector so your stack survives what's coming.",
   openGraph: {
-    title: "Bitcoin Defense | Every Satoshi. Future-Proof.",
-    description: "AI and human intelligence protecting Bitcoin from quantum threats, key exposure, and every attack vector.",
+    title: "Stacker Zero | Zero Reuse. Zero Exposure. Zero Trust.",
+    description: "Bitcoin security intelligence for serious holders. Quantum threats, key hygiene, self-custody -- we track every attack vector so your stack survives what's coming.",
     type: "website",
   },
 };

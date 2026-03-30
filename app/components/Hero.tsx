@@ -7,23 +7,24 @@ export default function Hero() {
 
         <div className="inline-flex items-center gap-2 bg-[#F7931A]/10 border border-[#F7931A]/30 rounded-full px-4 py-2 text-sm text-[#F7931A] mb-8">
           <span className="w-2 h-2 rounded-full bg-[#F7931A] animate-pulse inline-block" />
-          Quantum threat window: 2030-2035. The clock is running.
+          Google moved Q-Day to 2029. The clock is running.
         </div>
 
-        <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
-          The Last Line of Defense<br />
-          <span className="text-[#F7931A]">For Every Satoshi</span>
+        <h1 className="text-5xl md:text-7xl font-black mb-4 leading-tight">
+          <span className="text-[#F7931A]">Stacker Zero</span>
         </h1>
 
-        <p className="text-xl text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
-          We are building the ultimate team of AI and human intelligence -- dedicated to one mission: 
-          ensuring every last Satoshi is mined, every wallet is future-proof, 
-          and Bitcoin survives every threat vector known and unknown.
+        <p className="text-xl md:text-2xl font-mono text-gray-300 mb-6 tracking-widest uppercase">
+          Zero reuse. Zero exposure. Zero trust.
         </p>
 
-        <p className="text-base text-gray-500 mb-10 max-w-2xl mx-auto">
-          Quantum computing. Key exposure. Custodial risk. Supply chain attacks. Physical coercion.
-          We track them all. We prepare you for what is coming.
+        <p className="text-base text-gray-400 mb-6 max-w-3xl mx-auto leading-relaxed">
+          Bitcoin security intelligence for serious holders. We track quantum threats, key hygiene,
+          and every attack vector -- so your stack survives what is coming.
+        </p>
+
+        <p className="text-sm text-gray-600 mb-10 max-w-2xl mx-auto font-mono">
+          // quantum computing . key exposure . custodial risk . supply chain . physical coercion
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -38,7 +39,7 @@ export default function Hero() {
         <div className="mt-20 grid grid-cols-3 gap-8 max-w-lg mx-auto text-center">
           {[
             ["~1.7M BTC","sitting in vulnerable P2PK outputs"],
-            ["2030-35","estimated quantum threat window"],
+            ["2029","Google moved Q-Day here"],
             ["21M","total Bitcoin that will ever exist"]
           ].map(([n,l]) => (
             <div key={n}>
@@ -49,12 +50,12 @@ export default function Hero() {
         </div>
 
         <div className="mt-16 max-w-2xl mx-auto border border-[#F7931A]/20 rounded-xl p-6 bg-[#F7931A]/5">
-          <p className="text-sm text-gray-400 italic leading-relaxed">
+          <p className="text-sm text-gray-400 italic leading-relaxed font-mono">
             "The Bitcoin network is the most important financial infrastructure ever built.
-            Our team exists to make sure it -- and your piece of it -- outlasts every threat,
+            Stacker Zero exists to make sure it -- and your piece of it -- outlasts every threat,
             every government, every quantum computer, and every attack vector the future can throw at it."
           </p>
-          <p className="text-xs text-[#F7931A] mt-3 font-semibold">-- Bitcoin Defense Team</p>
+          <p className="text-xs text-[#F7931A] mt-3 font-semibold">-- Stacker Zero</p>
         </div>
 
       </div>

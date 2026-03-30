@@ -1,6 +1,8 @@
-ï»¿# Bitcoin Defense
+# Stacker Zero
 
-> Advanced Bitcoin security intelligence. Protect your holdings from quantum threats, key exposure, and all attack vectors.
+> Zero reuse. Zero exposure. Zero trust.
+
+Bitcoin security intelligence for serious holders. Quantum threats, key hygiene, self-custody — we track every attack vector so your stack survives what''s coming.
 
 ## Features
 

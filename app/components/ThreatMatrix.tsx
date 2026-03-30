@@ -1,6 +1,6 @@
-﻿"use client";
+"use client";
 const threats = [
-  { title:"Quantum Computing", level:"CRITICAL", color:"#ef4444", desc:"Shor's algorithm can derive private keys from exposed public keys. ~4,000 logical qubits needed. Estimated threat window: 2030-2035.", icon:"[QC]" },
+  { title:"Quantum Computing", level:"CRITICAL", color:"#ef4444", desc:"Shor's algorithm can derive private keys from exposed public keys. ~4,000 logical qubits needed. Google officially moved Q-Day to 2029. Migrate now.", icon:"[QC]" },
   { title:"Address Reuse", level:"HIGH", color:"#f97316", desc:"Spending from an address exposes your public key on-chain. Any reused address is permanently vulnerable to future quantum attacks.", icon:"[AR]" },
   { title:"Custodial Risk", level:"CRITICAL", color:"#ef4444", desc:"Exchanges hold your keys. Hacks, insolvency, and regulatory seizure can wipe your holdings overnight. Not your keys, not your Bitcoin.", icon:"[CR]" },
   { title:"Seed Exposure", level:"HIGH", color:"#f97316", desc:"Digital seed phrase copies (photos, cloud, email) are catastrophic. Single-location backups are single points of failure.", icon:"[SE]" },
