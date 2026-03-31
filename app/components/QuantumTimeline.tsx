@@ -6,8 +6,8 @@ const events = [
   { year:"2025", label:"NIST finalizes post-quantum cryptography standards", status:"past" },
   { year:"2026", label:"~1,000-2,000 noisy qubits. Bitcoin safe -- for now.", status:"now" },
   { year:"2028", label:"Bitcoin community begins quantum-resistant BIP proposals", status:"future" },
+  { year:"2029", label:"Google moved Q-Day here -- Estimated window: ECDSA becomes breakable", status:"danger" },
   { year:"2030", label:"WARNING: Quantum Event Horizon approaches", status:"warning" },
-  { year:"2029", label:"Estimated window: ECDSA becomes breakable", status:"danger" },
   { year:"2035+", label:"Bitcoin hard fork to quantum-resistant signatures", status:"future" },
 ];
 
@@ -44,3 +44,4 @@ export default function QuantumTimeline() {
     </section>
   );
 }
+
