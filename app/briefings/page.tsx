@@ -41,7 +41,7 @@ export default function BriefingsPage() {
         ) : (
           <div className="flex flex-col gap-4">
             {briefings.map((b) => (
-              <Link key={b.date} href={`/briefings/${b.date}`}>
+              <Link key={b.slug} href={`/briefings/${b.slug}`}>
                 <div className="border border-[#F7931A]/20 hover:border-[#F7931A]/60 rounded-xl p-6 bg-[#F7931A]/5 hover:bg-[#F7931A]/10 transition-all group">
                   <div className="flex items-start justify-between gap-4">
                     <div className="flex-1">

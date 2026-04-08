@@ -6,7 +6,7 @@ import remarkHtml from "remark-html";
 
 export async function generateStaticParams() {
   const briefings = getAllBriefings();
-  return briefings.map(b => ({ date: b.date }));
+  return briefings.map(b => ({ date: b.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ date: string }> }) {
