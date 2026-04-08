@@ -25,7 +25,7 @@ export function getAllBriefings(): BriefingMeta[] {
       const slug = file.replace(/\.md$/, "");
       return {
         slug,
-        date: (data.date as string) || slug.substring(0, 10),
+        date: String(data.date || slug.substring(0, 10)).substring(0, 10),
         title: data.title as string,
         excerpt: (data.summary || data.excerpt || "") as string,
       };
@@ -40,7 +40,7 @@ export function getBriefing(slug: string): Briefing | null {
   const { data, content } = matter(raw);
   return {
     slug,
-    date: (data.date as string) || slug.substring(0, 10),
+    date: String(data.date || slug.substring(0, 10)).substring(0, 10),
     title: data.title as string,
     excerpt: (data.summary || data.excerpt || "") as string,
     content,
